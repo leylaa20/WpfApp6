@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="iend.png" />
+    <None Remove="inext.png" />
+    <None Remove="iplay.png" />
+    <None Remove="istart.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="iend.png" />
+    <Resource Include="inext.png" />
+    <Resource Include="iplay.png" />
+    <Resource Include="istart.png" />
+  </ItemGroup>
+
+</Project>
